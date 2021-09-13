@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.outer-container{
+    background-image: url("./images/sven-van-der-pluijm-W7EgqYJdQOE-unsplash.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    background-color:hsla(201, 100%, 6%, 0.6);
+    width: 50%;
+    height: 45%;
+    padding: 20px;
+    min-width: 400px;
+    max-width: 500px;
+}
+
+.login-title{
+    text-align: center;
+    font-weight: normal;
+    color: seashell;
+    font-size: 1.9rem;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-form label{
+    margin-bottom: 10px;
+    color: snow;
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+.input-form input{
+    border-radius: 7px;
+    padding: 7px;
+    border: 2px solid hsla(201, 100%, 6%);
+    background-color: hsla(201, 100%, 91%, 0.3);
+    color: white;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.input-form input:focus{
+    border: 2px solid hsla(201, 100%, 50%);
+}
+
+.signin-button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: larger;
+    border-radius: 7px;
+    background-color: hsla(201, 100%, 50%, 0.2);
+    color: white;
+    outline: none;
+    border: 2px solid hsla(201, 100%, 50%);
+}
+
+.signin-button:hover{
+    background-color: hsla(201, 100%, 50%, 0.3);
+}
+
